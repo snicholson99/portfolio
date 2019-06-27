@@ -1,0 +1,59 @@
+.info {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  z-index: 3; }
+  .info > div:nth-of-type(1) {
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: calc(80vh - 72px);
+    position: relative;
+    z-index: 2;
+    padding: 2vw 2vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 300px; }
+  .info .background-video {
+    background: transparent url("/layer_dotted_grid.png") repeat;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-position: bottom right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    filter: brightness(40%); }
+  .info .highlight {
+    position: relative;
+    z-index: 1;
+    margin: 20px 0;
+    display: flex; }
+    .info .highlight-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      font-size: 24px;
+      padding-right: 20px; }
+  .info h3 {
+    text-align: center;
+    margin-bottom: 20px; }
+  .info-highlights {
+    max-width: 500px;
+    margin: 40px 0;
+    padding: 0px 10px; }
+  .info-skills {
+    max-width: 800px;
+    margin: 40px 0;
+    padding: 0px 10px; }

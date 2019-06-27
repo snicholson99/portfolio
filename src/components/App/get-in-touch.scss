@@ -1,0 +1,66 @@
+.git {
+  // background-color: #A08A6B;
+  // color: #272727;
+  min-height: calc(100vh - 72px);
+  // margin: 60px 0;
+  // border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+  &-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .social {
+      cursor: pointer;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid #f0f0f0;
+      &:hover a:not(:hover) {
+        opacity: 0.2;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        a {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          transition: all 0.3s ease-in-out;
+          color: #272727;
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 120px;
+            height: 120px;
+            font-size: 70px;
+          }
+          .label {
+            font-family: 'Anonymous Pro', Monaco, "Courier New", monospace;
+            text-align: center;
+            padding: 20px;
+            // width: 200px;
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .git-content > .social {
+    border: none;
+  }
+}

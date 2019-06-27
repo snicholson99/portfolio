@@ -1,0 +1,18 @@
+.my-journey {
+  // background-color: #A08A6B;
+  // color: #272727;
+  // min-height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  // margin: 60px auto;
+  margin: 0 auto;
+  padding: 15vh 0 20vh;
+  h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+  }
+}

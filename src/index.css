@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body, header, footer {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #272727; }
+  body ::selection, header ::selection, footer ::selection {
+    background: #e0e0e0; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+@-webkit-keyframes autofill {
+  to {
+    color: #666;
+    background: transparent; } }
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both; }
+
+label {
+  font-size: 14px;
+  margin: 0; }
+
+input {
+  padding: 2px 5px;
+  box-shadow: none;
+  font-size: 12px; }
+  input:focus {
+    outline: none; }
+
+textarea {
+  padding: 2px 5px;
+  font-size: 12px;
+  overflow-x: hidden; }
+  textarea:focus {
+    outline: none; }
+
+select:focus {
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, span, a, li {
+  margin: 0px;
+  padding: 0px; }
+
+p, li {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  hyphens: manual;
+  line-height: 1.5; }
+
+strong {
+  font-weight: 700; }
+
+.container {
+  width: 100%;
+  margin: auto; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.1s ease;
+  cursor: pointer; }
+  a:hover {
+    text-decoration: none; }

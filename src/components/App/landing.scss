@@ -1,0 +1,46 @@
+.landing {
+  // border: 1px solid;
+  background-color: #ffffff;
+  // color: #44238b;
+  margin-top: 72px;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  div:nth-of-type(2) {
+    opacity: 0;
+    padding: 0 20px;
+    animation: fadeInUp 1s 2.5s ease-in forwards;
+    h1, h3, h4 {
+      margin: 5px 0;
+    }
+    h4 {
+      font-family: 'Anonymous Pro', Monaco, "Courier New", monospace;
+      font-size: 14px;
+      max-width: 226px;
+      width: 0;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid #272727; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      animation: typing 3.5s 3.5s steps(40, end) forwards, blink-caret 0.75s 3.5s step-end infinite;
+    }
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #272727; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0px);}
+}

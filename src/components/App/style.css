@@ -1,0 +1,18 @@
+@import url(./navbar.css);
+@import url(./PercentageBar.css);
+@import url(./landing.css);
+@import url(./highlights.css);
+@import url(./my-journey.css);
+@import url(./behind-the-code.css);
+@import url(./get-in-touch.css);
+@media screen and (min-width: 860px) {
+  .visible {
+    transform: translateX(0px);
+    transition: all 0.8s; }
+  .invisible {
+    opacity: 0;
+    user-select: none;
+    transform: translateX(-300px);
+    transition: all 0.8s; }
+    .invisible a {
+      cursor: default; } }

@@ -1,0 +1,80 @@
+.stepper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 10px 10px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  -webkit-box-shadow: 8px 8px 5px 0px rgba(99,99,99,0.86);
+  -moz-box-shadow: 8px 8px 5px 0px rgba(99,99,99,0.86);
+  box-shadow: 8px 8px 5px 0px rgba(99,99,99,0.86);
+  &-headings {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    .icon {
+      max-width: 75px;
+      max-height: 75px;
+      cursor: pointer;
+      padding: 5px;
+      transition: box-shadow 0.3s;
+      border: 1px solid transparent;
+      border-radius: 20%;
+      // border-radius: 10px;
+      &:nth-child(1) {
+        &.selected {
+          -webkit-box-shadow: 5px 5px 10px 0px rgba(51,163,219,1);
+          -moz-box-shadow: 5px 5px 10px 0px rgba(51,163,219,1);
+          box-shadow: 5px 5px 10px 0px rgba(51,163,219,1);
+          // border: 1px solid hsl(200, 70%, 53%);
+        }
+        &:hover {
+          -webkit-box-shadow: 5px 5px 10px 0px rgba(51,163,219,1);
+          -moz-box-shadow: 5px 5px 10px 0px rgba(51,163,219,1);
+          box-shadow: 5px 5px 10px 0px rgba(51,163,219,1);
+          // border: 1px solid #e0e0e0;
+        }
+      }
+      &.selected {
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(145,153,0,1);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(145,153,0,1);
+        box-shadow: 5px 5px 10px 0px rgba(145,153,0,1);
+        // border: 1px solid #e0e0e0;
+      }
+      &:hover {
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(145,153,0,1);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(145,153,0,1);
+        box-shadow: 5px 5px 10px 0px rgba(145,153,0,1);
+        // border: 1px solid #e0e0e0;
+      }
+    }
+    .heading {
+      cursor: pointer;
+      padding: 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    // border-radius: 10px;
+    margin: 20px 15px;
+    min-height: 300px;
+    // -webkit-box-shadow: 4px 4px 5px 0px rgba(99,99,99,0.86);
+    // -moz-box-shadow: 4px 4px 5px 0px rgba(99,99,99,0.86);
+    // box-shadow: 4px 4px 5px 0px rgba(99,99,99,0.86);
+    h3 {
+      padding: 10px;
+      font-family: 'Anonymous Pro', Monaco, "Courier New", monospace;
+    }
+    p {
+      text-align: justify;
+      padding: 0 30px;
+    }
+  }
+}

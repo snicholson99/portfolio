@@ -1,0 +1,50 @@
+.git {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .git h1 {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center; }
+  .git-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .git-content .social {
+      cursor: pointer;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid #f0f0f0; }
+      .git-content .social:hover a:not(:hover) {
+        opacity: 0.2; }
+      .git-content .social .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .git-content .social .column a {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          transition: all 0.3s ease-in-out;
+          color: #272727; }
+          .git-content .social .column a .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 120px;
+            height: 120px;
+            font-size: 70px; }
+          .git-content .social .column a .label {
+            font-family: 'Anonymous Pro', Monaco, "Courier New", monospace;
+            text-align: center;
+            padding: 20px;
+            width: 200px; }
+
+@media screen and (max-width: 570px) {
+  .git-content > .social {
+    border: none; } }

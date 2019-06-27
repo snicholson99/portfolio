@@ -1,0 +1,40 @@
+.btc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 calc(6vw - 30px); }
+  .btc h1 {
+    width: 100%;
+    position: absolute;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #e0e0e0;
+    text-shadow: 2px 2px #272727;
+    font-family: 'Anonymous Pro', Monaco, "Courier New", monospace;
+    z-index: 1; }
+  .btc-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 5vw; }
+    .btc-content p {
+      text-align: center;
+      max-width: 520px; }
+    .btc-content img {
+      max-width: 330px;
+      width: auto;
+      border: 1px solid; }
+  .btc div {
+    height: 70vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: flex-end;
+    filter: brightness(70%);
+    z-index: 0; }
+    .btc div:first-of-type, .btc div:last-of-type {
+      align-self: flex-start; }

@@ -1,0 +1,33 @@
+.pb {
+  display: flex;
+  position: relative;
+  align-items: center; }
+  .pb:hover .pb-bar-full {
+    filter: brightness(120%); }
+  .pb-label {
+    width: 280px;
+    font-weight: 600;
+    font-family: 'Anonymous Pro', Monaco, "Courier New", monospace; }
+  .pb-bar {
+    animation: fadeIn 0.5s 0.5s forwards;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    height: 26px;
+    background-color: #b0b0b0; }
+  .pb-bar-full {
+    border: 2px solid #272727;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #272727;
+    z-index: 1; }
+
+@keyframes fadeIn {
+  from {
+    left: -5px;
+    opacity: 0; }
+  to {
+    left: 0px;
+    opacity: 1; } }
