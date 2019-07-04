@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PercentageBar from '../PercentageBar';
+import bgVideo from "blurred_coding.mp4";
 
 class Highlights extends Component {
 
@@ -13,7 +14,7 @@ class Highlights extends Component {
       // <div id="highlights" className={`info ${isVisible ? "visible" : "invisible"}`}>
       <div id="highlights" className="info">
         <video id="background-video" autoPlay muted loop className="background-video">
-          <source src="/blurred_coding.mp4" type="video/mp4" />
+          <source src={bgVideo} type="video/mp4" />
           Sorry, your browser does not support HTML5 video.
         </video>
         <div className={`${isVisible ? "visible" : "invisible"}`}>
