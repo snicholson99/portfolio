@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactVivus from 'react-vivus';
-import profileSVG from './profile_outline_black.svg';
 
 const Landing = () => {
   return (
@@ -8,7 +7,7 @@ const Landing = () => {
       <ReactVivus
         id="foo"
         option={{
-          file: profileSVG,
+          file: "profile_outline_black.svg",
           animTimingFunction: 'SYNC',
           type: 'oneByOne',
           duration: 200,

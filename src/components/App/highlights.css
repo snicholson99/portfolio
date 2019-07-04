@@ -18,7 +18,6 @@
     flex-wrap: wrap;
     min-height: 300px; }
   .info .background-video {
-    background: transparent url("/layer_dotted_grid.png") repeat;
     background-color: rgba(0, 0, 0, 0.45);
     background-position: bottom right;
     position: absolute;

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
-import outlineGraphic from "/profile_outline.svg";
 
 class Navbar extends Component {
   constructor() {
@@ -39,7 +38,7 @@ class Navbar extends Component {
     return (
       <div className={navbarClassnames}>
         <div>
-          <NavLink scroll={el => this.scrollWithOffset(el, 150)} to="/#landing"><img src={outlineGraphic} alt="logo" /></NavLink>
+          <NavLink scroll={el => this.scrollWithOffset(el, 150)} to="/#landing"><img src="profile_outline.svg" alt="logo" /></NavLink>
           <i className="fas fa-bars hamburger" onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}></i>
         </div>
         <ul>
