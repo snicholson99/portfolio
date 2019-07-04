@@ -19,7 +19,7 @@ class Stepper extends Component {
       <div className="stepper">
         <div className="stepper-headings">
           {icons.map((icon, index) => (
-            <img key={index} alt="stepper icon" onClick={() => this.onSlideSelect(index)} className={`icon ${currentSlide === index && "selected"}`} src={`/${icon}`} />
+            <img key={index} alt="stepper icon" onClick={() => this.onSlideSelect(index)} className={`icon ${currentSlide === index && "selected"}`} src={icon} />
           ))}
           {/* {headings.map((heading, index) => (
             <span key={index} onClick={() => this.onSlideSelect(index)} className="heading">{heading}</span>
