@@ -28,6 +28,15 @@ class Navbar extends Component {
       behavior: "smooth"
     });
   } 
+  
+  onLandingClick = () => {
+    this.setState({ hamburgerOpen: false });
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  }
 
   render() {
     const navbarClassnames = classnames({
@@ -38,14 +47,14 @@ class Navbar extends Component {
     return (
       <div className={navbarClassnames}>
         <div>
-          <NavLink onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })} scroll={el => this.scrollWithOffset(el, 150)} to="/#landing"><img src="profile_outline.svg" alt="logo" /></NavLink>
+          <NavLink onClick={this.onLandingClick} scroll={el => this.scrollWithOffset(el, 150)} to=""><img src="profile_outline.svg" alt="logo" /></NavLink>
           <i className="fas fa-bars hamburger" onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}></i>
         </div>
         <ul>
-          <li onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}><NavLink scroll={el => this.scrollWithOffset(el, 150)} to="/#highlights">Highlights</NavLink></li>
-          <li onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}><NavLink scroll={el => this.scrollWithOffset(el, 50)} to="/#my-journey">My Journey</NavLink></li>
-          {/* <li onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}><NavLink scroll={el => this.scrollWithOffset(el, 120)} to="/#behind-the-code">Behind The Code</NavLink></li> */}
-          <li onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}><NavLink scroll={el => this.scrollWithOffset(el, 60)} to="/#get-in-touch">Get In Touch</NavLink></li>
+          <li onClick={() => this.setState({ hamburgerOpen: false })}><NavLink scroll={el => this.scrollWithOffset(el, 150)} to="/#highlights">Highlights</NavLink></li>
+          <li onClick={() => this.setState({ hamburgerOpen: false })}><NavLink scroll={el => this.scrollWithOffset(el, 50)} to="/#my-journey">My Journey</NavLink></li>
+          {/* <li onClick={() => this.setState({ hamburgerOpen: false })}><NavLink scroll={el => this.scrollWithOffset(el, 120)} to="/#behind-the-code">Behind The Code</NavLink></li> */}
+          <li onClick={() => this.setState({ hamburgerOpen: false })}><NavLink scroll={el => this.scrollWithOffset(el, 60)} to="/#get-in-touch">Get In Touch</NavLink></li>
         </ul>
       </div>
     );

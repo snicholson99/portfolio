@@ -33,14 +33,10 @@ class Highlights extends Component {
             </div>
           </div>
           <div className="info-skills">
-            <h3>Skills</h3>
+            <h3>Proficient with</h3>
               <a className="chip" href="https://reactjs.org/" target="_blank">
                 <img src="react_logo.svg" />
                 <p>React JS</p>
-              </a>
-              <a className="chip" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                <img src="js_logo.png" />
-                <p>JavaScript</p>
               </a>
               <a className="chip" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
                 <img src="html_logo.png" />
@@ -50,13 +46,33 @@ class Highlights extends Component {
                 <img src="css_logo.png" />
                 <p>CSS 3</p>
               </a>
+              <a className="chip" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                <img src="js_logo.png" />
+                <p>JavaScript</p>
+              </a>
               <a className="chip" href="https://sass-lang.com/" target="_blank">
                 <img src="sass_logo.svg" />
-                <p>SCSS (SASS)</p>
+                <p>SASS</p>
+              </a>
+              <a className="chip" href="https://jquery.com/" target="_blank">
+                <img src="jquery_logo.png" />
+                <p>jQuery</p>
               </a>
               <a className="chip" href="https://git-scm.com/" target="_blank">
                 <img src="git_logo.png" />
                 <p>Git</p>
+              </a>
+              <a className="chip" href="https://datastudio.google.com/" target="_blank">
+                <img src="data_studio_logo.svg" />
+                <p>Data Studio</p>
+              </a>
+              <a className="chip" href="https://cloud.google.com/bigquery" target="_blank">
+                <img src="big_query_logo.png" />
+                <p>BigQuery</p>
+              </a>
+              <a className="chip" href="https://zapier.com/" target="_blank">
+                <img src="zapier_logo.png" />
+                <p>Zapier</p>
               </a>
               <a className="chip" href="https://www.figma.com/" target="_blank">
                 <img src="figma_logo.svg" />
