@@ -18,23 +18,11 @@
       padding: 5px;
       transition: box-shadow 0.3s;
       border: 1px solid transparent;
-      border-radius: 20%; }
-      .stepper-headings .icon:nth-child(1).selected {
-        -webkit-box-shadow: 5px 5px 10px 0px #33a3db;
-        -moz-box-shadow: 5px 5px 10px 0px #33a3db;
-        box-shadow: 5px 5px 10px 0px #33a3db; }
-      .stepper-headings .icon:nth-child(1):hover {
-        -webkit-box-shadow: 5px 5px 10px 0px #33a3db;
-        -moz-box-shadow: 5px 5px 10px 0px #33a3db;
-        box-shadow: 5px 5px 10px 0px #33a3db; }
+      border-radius: 20px; }
       .stepper-headings .icon.selected {
-        -webkit-box-shadow: 5px 5px 10px 0px #919900;
-        -moz-box-shadow: 5px 5px 10px 0px #919900;
-        box-shadow: 5px 5px 10px 0px #919900; }
+        box-shadow: 5px 5px 10px 0px #b0b0b0; }
       .stepper-headings .icon:hover {
-        -webkit-box-shadow: 5px 5px 10px 0px #919900;
-        -moz-box-shadow: 5px 5px 10px 0px #919900;
-        box-shadow: 5px 5px 10px 0px #919900; }
+        box-shadow: 5px 5px 10px 0px #b0b0b0; }
     .stepper-headings .heading {
       cursor: pointer;
       padding: 5px; }
@@ -45,6 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: flex-start;
     padding: 5px;
     border: 1px solid #e0e0e0;
     margin: 20px 15px;

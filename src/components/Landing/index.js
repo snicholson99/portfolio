@@ -2,6 +2,12 @@ import React from 'react';
 import ReactVivus from 'react-vivus';
 
 const Landing = () => {
+  const calculateYearsSince = date => {
+    const ageDifMs = Date.now() - date;
+    const ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
+
   return (
     <div id="landing" className="landing">
       <ReactVivus
@@ -18,8 +24,8 @@ const Landing = () => {
       <div>
         <h1>Scott A. Nicholson</h1>
         <h3>Full Stack Developer</h3>
-        <h3>20 years old</h3>
-        <h4>1 year of coding expertise</h4>
+        <h3>{calculateYearsSince(new Date('05/11/1999'))} years old</h3>
+        <h4>{calculateYearsSince(new Date('09/03/2017'))} years of coding expertise</h4>
       </div>
     </div>
   );

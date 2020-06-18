@@ -18,12 +18,12 @@
     h4 {
       font-family: 'Anonymous Pro', Monaco, "Courier New", monospace;
       font-size: 14px;
-      max-width: 226px;
+      max-width: 232px;
       width: 0;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       border-right: .15em solid #272727; /* The typwriter cursor */
       white-space: nowrap; /* Keeps the content on a single line */
-      animation: typing 3.5s 3.5s steps(40, end) forwards, blink-caret 0.75s 3.5s step-end infinite;
+      animation: typing 3s 3.5s steps(40, end) forwards, blink-caret 0.75s 3.5s step-end infinite;
     }
   }
 }
