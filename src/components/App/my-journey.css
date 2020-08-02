@@ -10,3 +10,43 @@
     padding-bottom: 30px;
     font-size: 30px;
     text-align: center; }
+  .my-journey .journey-banner {
+    height: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 2px 2px 10px black;
+    margin: 12px 0;
+    background-color: black;
+    transform: translateX(-10%);
+    transition: transform 1.5s; }
+    .my-journey .journey-banner-right {
+      transform: translateX(10%) !important; }
+    .my-journey .journey-banner-right.front {
+      transform: translateX(10%) rotate3d(0, 1, 0, 180deg) !important; }
+    .my-journey .journey-banner.front {
+      transform: translateX(-10%) rotate3d(0, 1, 0, 180deg); }
+    .my-journey .journey-banner.back {
+      color: black; }
+      .my-journey .journey-banner.back .journey-banner-img {
+        background-image: none !important;
+        background-color: #f0f0f0;
+        opacity: 1; }
+      .my-journey .journey-banner.back .journey-banner-text {
+        color: black;
+        display: block; }
+    .my-journey .journey-banner-img {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      opacity: 0.8;
+      transform: rotate3d(0, 1, 0, 180deg); }
+    .my-journey .journey-banner-text {
+      color: white;
+      padding: 40px 30px;
+      position: absolute;
+      z-index: 2;
+      display: none; }
+      .my-journey .journey-banner-text-right {
+        text-align: right;
+        right: 0; }
