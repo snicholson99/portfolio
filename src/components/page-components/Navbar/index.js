@@ -47,7 +47,7 @@ class Navbar extends Component {
     return (
       <div className={navbarClassnames}>
         <div>
-          <NavLink onClick={this.onLandingClick} scroll={el => this.scrollWithOffset(el, 150)} to=""><img src="profile_outline.svg" alt="logo" /></NavLink>
+          <NavLink onClick={this.onLandingClick} scroll={el => this.scrollWithOffset(el, 150)} to="/"><img src="profile_outline.svg" alt="logo" /></NavLink>
           <i className="fas fa-bars hamburger" onClick={() => this.setState({ hamburgerOpen: !this.state.hamburgerOpen })}></i>
         </div>
         <ul>

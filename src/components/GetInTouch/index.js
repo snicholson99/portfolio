@@ -21,6 +21,10 @@ const GetInTouch = ({ isVisible }) => {
               <i className="icon fab fa-instagram" />
               <p className="label">Instagram</p>
             </a></li>
+            <li><a href="https://medium.com/@scott.nicholson" target="_blank" rel="noopener noreferrer">
+              <i className="icon fab fa-medium" />
+              <p className="label">Medium</p>
+            </a></li>
           </ul>
         </div>
       </div>

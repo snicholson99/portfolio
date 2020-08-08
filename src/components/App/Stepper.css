@@ -39,8 +39,7 @@
     margin: 20px 15px;
     min-height: 300px; }
     .stepper-content h3 {
-      padding: 10px;
-      font-family: 'Anonymous Pro', Monaco, "Courier New", monospace; }
+      margin: 20px 0; }
     .stepper-content p {
-      text-align: justify;
+      text-align: left;
       padding: 0 30px; }

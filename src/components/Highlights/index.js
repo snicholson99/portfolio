@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PercentageBar from '../PercentageBar';
+import data from './data';
 
 class Highlights extends Component {
 
@@ -14,7 +14,6 @@ class Highlights extends Component {
       <div id="highlights" className="info">
         <video id="background-video" autoPlay muted loop className="background-video">
           <source src="blurred_coding.mp4" type="video/mp4" />
-          Sorry, your browser does not support HTML5 video.
         </video>
         <div className={`${isVisible ? "visible" : "invisible"}`}>
           <div className="info-highlights">
@@ -33,72 +32,22 @@ class Highlights extends Component {
             </div>
           </div>
           <div className="info-skills">
-            <h3>Proficient with</h3>
-              <a className="chip" href="https://reactjs.org/" target="_blank">
-                <img src="react_logo.svg" />
-                <p>React JS</p>
+            {data.proficient.length > 0 && <h3>Proficient with</h3>}
+            {data.proficient.map(chip => chip.name && (
+              <a key={chip.name} className="chip" href={chip.url} target={chip.openInNewTab && "_blank"}>
+                <img src={chip.imageSrc} alt={chip.name} />
+                <p>{chip.name}</p>
               </a>
-              <a className="chip" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <img src="html_logo.png" />
-                <p>HTML 5</p>
+            ))}
+          </div>
+          <div className="info-skills">
+            {data.learning.length > 0 && <h3>Actively learning</h3>}
+            {data.learning.map(chip => chip.name && (
+              <a key={chip.name} className="chip" href={chip.url} target={chip.openInNewTab && "_blank"}>
+                <img src={chip.imageSrc} alt={chip.name} />
+                <p>{chip.name}</p>
               </a>
-              <a className="chip" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="css_logo.png" />
-                <p>CSS 3</p>
-              </a>
-              <a className="chip" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                <img src="js_logo.png" />
-                <p>JavaScript</p>
-              </a>
-              <a className="chip" href="https://sass-lang.com/" target="_blank">
-                <img src="sass_logo.svg" />
-                <p>SASS</p>
-              </a>
-              <a className="chip" href="https://jquery.com/" target="_blank">
-                <img src="jquery_logo.png" />
-                <p>jQuery</p>
-              </a>
-              <a className="chip" href="https://git-scm.com/" target="_blank">
-                <img src="git_logo.png" />
-                <p>Git</p>
-              </a>
-              <a className="chip" href="https://datastudio.google.com/" target="_blank">
-                <img src="data_studio_logo.svg" />
-                <p>Data Studio</p>
-              </a>
-              <a className="chip" href="https://cloud.google.com/bigquery" target="_blank">
-                <img src="big_query_logo.png" />
-                <p>BigQuery</p>
-              </a>
-              <a className="chip" href="https://zapier.com/" target="_blank">
-                <img src="zapier_logo.png" />
-                <p>Zapier</p>
-              </a>
-              <a className="chip" href="https://www.figma.com/" target="_blank">
-                <img src="figma_logo.svg" />
-                <p>Figma</p>
-              </a>
-              <a className="chip" href="https://airtable.com/" target="_blank">
-                <img src="airtable_logo.png" />
-                <p>Airtable</p>
-              </a>
-              <a className="chip" href="https://asana.com/" target="_blank">
-                <img src="asana_logo.svg" />
-                <p>Asana</p>
-              </a>
-              <a className="chip" href="https://trello.com/" target="_blank">
-                <img src="trello_logo.png" />
-                <p>Trello</p>
-              </a>
-            {/* <PercentageBar label="React JS" percentage={80} colour="#61DBFB" url="https://reactjs.org/" />
-            <PercentageBar label="JavaScript" percentage={85} colour="#F7E018" url="https://developer.mozilla.org/en-US/docs/Web/JavaScript" />
-            <PercentageBar label="HTML 5" percentage={80} colour="#F16529" url="https://developer.mozilla.org/en-US/docs/Web/HTML" />
-            <PercentageBar label="CSS 3" percentage={90} colour="#1572B7" url="https://developer.mozilla.org/en-US/docs/Web/CSS" />
-            <PercentageBar label="SASS/SCSS" percentage={95} colour="#CE679A" url="https://sass-lang.com/" />
-            <PercentageBar label="Git" percentage={70} colour="#F05033" url="https://git-scm.com/" />
-            <PercentageBar label="Asana" percentage={80} colour="#F9726D" url="https://asana.com/" />
-            <PercentageBar label="UI Frameworks" percentage={70} colour="#5D3F87" url="https://getbootstrap.com/" />
-            <PercentageBar label="Figma" percentage={75} colour="#0ACF83" url="https://www.figma.com/" /> */}
+            ))}
           </div>
         </div>
       </div>

@@ -7,7 +7,6 @@ import Navbar from '../page-components/Navbar';
 import Landing from '../Landing';
 import Highlights from '../Highlights';
 import MyJourney from '../MyJourney';
-// import BehindTheCode from '../BehindTheCode';
 import GetInTouch from '../GetInTouch';
 
 const App = () => (
@@ -16,7 +15,6 @@ const App = () => (
     <Landing />
     <TrackVisibility once><Highlights /></TrackVisibility>
     <TrackVisibility once><MyJourney /></TrackVisibility>
-    {/* <BehindTheCode /> */}
     <TrackVisibility once><GetInTouch /></TrackVisibility>
   </div>
 );

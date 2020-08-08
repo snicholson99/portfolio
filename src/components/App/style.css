@@ -1,9 +1,7 @@
 @import url(./navbar.css);
-@import url(./PercentageBar.css);
 @import url(./landing.css);
 @import url(./highlights.css);
 @import url(./my-journey.css);
-@import url(./behind-the-code.css);
 @import url(./get-in-touch.css);
 @media screen and (min-width: 860px) {
   .visible {

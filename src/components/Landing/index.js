@@ -23,7 +23,7 @@ const Landing = () => {
 
       <div>
         <h1>Scott A. Nicholson</h1>
-        <h3>Full Stack Developer</h3>
+        <h3>Software Developer</h3>
         <h3>{calculateYearsSince(new Date('05/11/1999'))} years old</h3>
         <h4>{calculateYearsSince(new Date('09/03/2017'))} years of coding expertise</h4>
       </div>
