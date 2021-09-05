@@ -1,5 +1,4 @@
 import React from 'react';
-import TrackVisibility from 'react-on-screen';
 
 import './style.css';
 import Navbar from '../page-components/Navbar';
@@ -13,9 +12,9 @@ const App = () => (
   <div className="app">
     <Navbar />
     <Landing />
-    <TrackVisibility once><Highlights /></TrackVisibility>
-    <TrackVisibility once><MyJourney /></TrackVisibility>
-    <TrackVisibility once><GetInTouch /></TrackVisibility>
+    <Highlights />
+    <MyJourney />
+    <GetInTouch />
   </div>
 );
 

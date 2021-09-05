@@ -8,14 +8,12 @@ class Highlights extends Component {
     video.playbackRate = 0.8;
   }
   render() {
-    const { isVisible } = this.props;
     return (
-      // <div id="highlights" className={`info ${isVisible ? "visible" : "invisible"}`}>
       <div id="highlights" className="info">
         <video id="background-video" autoPlay muted loop className="background-video">
           <source src="blurred_coding.mp4" type="video/mp4" />
         </video>
-        <div className={`${isVisible ? "visible" : "invisible"}`}>
+        <div className="visible">
           <div className="info-highlights">
             <h3>Career Highlights</h3>
             <div className="highlight">
@@ -28,8 +26,12 @@ class Highlights extends Component {
             </div>
             <div className="highlight">
               <i className="fas fa-user-friends highlight-icon"></i>
-              <p className="highlight-text">Represented Medstars Ltd at VentureFest WM 2018</p>
+              <p className="highlight-text">Mentored two School of Code graduates (and counting)</p>
             </div>
+            {/* <div className="highlight">
+              <i className="fas fa-user-friends highlight-icon"></i>
+              <p className="highlight-text">Represented Medstars Ltd at VentureFest WM 2018</p>
+            </div> */}
           </div>
           <div className="info-skills">
             {data.proficient.length > 0 && <h3>Proficient with</h3>}

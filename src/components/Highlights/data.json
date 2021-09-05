@@ -55,6 +55,12 @@
       "url": "https://airtable.com/"
     },
     {
+      "imageSrc": "coda_logo.webp",
+      "name": "Coda",
+      "openInNewTab": true,
+      "url": "https://coda.io/"
+    },
+    {
       "imageSrc": "trello_logo.png",
       "name": "Trello",
       "openInNewTab": true,

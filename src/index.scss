@@ -1,9 +1,3 @@
-//=== Colour Setup ===//
-// $textBlack: #272727;
-// $white: #000;
-// $blue: #b5bd00;
-//=== END: Colour Setup ===//
-
 html {
   height: 100%;
   width: 100%;
@@ -15,13 +9,12 @@ html {
 }
 
 body, header, footer {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: block;
   height: 100%;
   width: 100%;
   font-family: sans-serif;
-  // font-family: $lato;
   color: #272727;
   ::selection {
     background: #e0e0e0;
@@ -34,68 +27,12 @@ ul {
   margin: 0;
 }
 
-//=== Remove Chrome form-autofill ===//
-@-webkit-keyframes autofill {
-  to {
-    color: #666;
-    background: transparent;
-  }
-}
-input:-webkit-autofill {
-  -webkit-animation-name: autofill;
-  -webkit-animation-fill-mode: both;
-}
-//=== END: Remove Chrome form-autofill ===//
-
-label {
-  // font-family: $lato;
-  font-size: 14px;
-  margin: 0;
-}
-
-input {
-  padding: 2px 5px;
-  box-shadow: none;
-  // font-family: $varela;
-  font-size: 12px;
-  // border: 1px solid $darkerWhite;
-  &:focus {
-    outline: none;
-  }
-}
-
-textarea {
-  padding: 2px 5px;
-  // font-family: $varela;
-  font-size: 12px;
-  overflow-x: hidden;
-  // border: 1px solid $darkerWhite;
-  &:focus {
-    outline: none;
-  }
-}
-
-select {
-  // border: 1px solid $darkerWhite;
-  &:focus {
-    outline: none;
-  }
-}
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, span, a, li {
   margin: 0px;
   padding: 0px;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6,
-.font-size-h1, .font-size-h2, .font-size-h3,
-.font-size-h4, .font-size-h5, .font-size-h6 {
-  // font-family: $varela;
-}
-
 p, li {
-  // font-family: $lato;
   hyphens: auto;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -109,13 +46,6 @@ strong {
   font-weight: 700;
 }
 
-//=== Override Bootstrap styles ===//
-.container {
-  width: 100%;
-  margin: auto;
-}
-//=== END: Override Bootstrap styles ===//
-
 a {
   text-decoration: none;
   color: inherit;
@@ -123,12 +53,5 @@ a {
   cursor: pointer;
   &:hover {
     text-decoration: none;
-    // color: $orange !important;
-  }
-  &:active {
-    // color: $lightOrange;
-  }
-  &.active-link {
-    // color: $orange;
   }
 }

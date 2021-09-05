@@ -7,8 +7,8 @@ html {
   box-sizing: inherit; }
 
 body, header, footer {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: block;
   height: 100%;
   width: 100%;
@@ -21,36 +21,6 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0; }
-
-@-webkit-keyframes autofill {
-  to {
-    color: #666;
-    background: transparent; } }
-
-input:-webkit-autofill {
-  -webkit-animation-name: autofill;
-  -webkit-animation-fill-mode: both; }
-
-label {
-  font-size: 14px;
-  margin: 0; }
-
-input {
-  padding: 2px 5px;
-  box-shadow: none;
-  font-size: 12px; }
-  input:focus {
-    outline: none; }
-
-textarea {
-  padding: 2px 5px;
-  font-size: 12px;
-  overflow-x: hidden; }
-  textarea:focus {
-    outline: none; }
-
-select:focus {
-  outline: none; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, span, a, li {
   margin: 0px;
@@ -67,10 +37,6 @@ p, li {
 
 strong {
   font-weight: 700; }
-
-.container {
-  width: 100%;
-  margin: auto; }
 
 a {
   text-decoration: none;

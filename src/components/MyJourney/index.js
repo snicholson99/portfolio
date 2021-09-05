@@ -1,8 +1,8 @@
 import React from 'react';
 import Stepper from '../page-components/Stepper/Stepper.js';
 
-const MyJourney = ({ isVisible }) => (
-  <div id="my-journey" className={`my-journey ${isVisible ? "visible": "invisible"}`}>
+const MyJourney = () => (
+  <div id="my-journey" className="my-journey visible">
     <h1>My Journey</h1>
 
     <Stepper
