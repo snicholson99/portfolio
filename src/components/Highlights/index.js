@@ -26,7 +26,7 @@ class Highlights extends Component {
             </div>
             <div className="highlight">
               <i className="fas fa-user-friends highlight-icon"></i>
-              <p className="highlight-text">Mentored two School of Code graduates (and counting)</p>
+              <p className="highlight-text">Mentor to two School of Code bootcampers</p>
             </div>
             {/* <div className="highlight">
               <i className="fas fa-user-friends highlight-icon"></i>
@@ -42,7 +42,7 @@ class Highlights extends Component {
               </a>
             ))}
           </div>
-          <div className="info-skills">
+          {/* <div className="info-skills">
             {data.learning.length > 0 && <h3>Actively learning</h3>}
             {data.learning.map(chip => chip.name && (
               <a key={chip.name} className="chip" href={chip.url} target={chip.openInNewTab && "_blank"}>
@@ -50,7 +50,7 @@ class Highlights extends Component {
                 <p>{chip.name}</p>
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     );
