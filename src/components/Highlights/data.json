@@ -1,79 +1,79 @@
 {
   "proficient" : [
     {
-      "imageSrc": "react_logo.svg",
+      "imageSrc": "assets/react_logo.svg",
       "name": "React JS",
       "openInNewTab": true,
       "url": "https://reactjs.org/"
     },
     {
-      "imageSrc": "html_logo.png",
+      "imageSrc": "assets/html_logo.png",
       "name": "HTML 5",
       "openInNewTab": true,
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
     {
-      "imageSrc": "css_logo.png",
+      "imageSrc": "assets/css_logo.png",
       "name": "CSS 3",
       "openInNewTab": true,
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
     },
     {
-      "imageSrc": "js_logo.png",
+      "imageSrc": "assets/js_logo.png",
       "name": "JavaScript",
       "openInNewTab": true,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-      "imageSrc": "sass_logo.svg",
+      "imageSrc": "assets/sass_logo.svg",
       "name": "SASS",
       "openInNewTab": true,
       "url": "https://sass-lang.com/"
     },
     {
-      "imageSrc": "jquery_logo.png",
+      "imageSrc": "assets/jquery_logo.png",
       "name": "jQuery",
       "openInNewTab": true,
       "url": "https://jquery.com/"
     },
     {
-      "imageSrc": "git_logo.png",
+      "imageSrc": "assets/git_logo.png",
       "name": "Git",
       "openInNewTab": true,
       "url": "https://git-scm.com/"
     },
     {
-      "imageSrc": "figma_logo.svg",
+      "imageSrc": "assets/figma_logo.svg",
       "name": "Figma",
       "openInNewTab": true,
       "url": "https://www.figma.com/"
     },
     {
-      "imageSrc": "airtable_logo.png",
+      "imageSrc": "assets/airtable_logo.png",
       "name": "Airtable",
       "openInNewTab": true,
       "url": "https://airtable.com/"
     },
     {
-      "imageSrc": "coda_logo.webp",
+      "imageSrc": "assets/coda_logo.webp",
       "name": "Coda",
       "openInNewTab": true,
       "url": "https://coda.io/"
     },
     {
-      "imageSrc": "trello_logo.png",
+      "imageSrc": "assets/trello_logo.png",
       "name": "Trello",
       "openInNewTab": true,
       "url": "https://trello.com/"
     },
     {
-      "imageSrc": "asana_logo.svg",
+      "imageSrc": "assets/asana_logo.svg",
       "name": "Asana",
       "openInNewTab": true,
       "url": "https://asana.com/"
     },
     {
-      "imageSrc": "zapier_logo.png",
+      "imageSrc": "assets/zapier_logo.png",
       "name": "Zapier",
       "openInNewTab": true,
       "url": "https://zapier.com"
@@ -81,19 +81,19 @@
   ],
   "learning": [
     {
-      "imageSrc": "data_studio_logo.svg",
+      "imageSrc": "assets/data_studio_logo.svg",
       "name": "Data Studio",
       "openInNewTab": true,
       "url": "https://datastudio.google.com/"
     },
     {
-      "imageSrc": "big_query_logo.png",
+      "imageSrc": "assets/big_query_logo.png",
       "name": "BigQuery",
       "openInNewTab": true,
       "url": "https://cloud.google.com/bigquery"
     },
     {
-      "imageSrc": "postgresql_logo.png",
+      "imageSrc": "assets/postgresql_logo.png",
       "name": "PostgreSQL",
       "openInNewTab": true,
       "url": "https://www.postgresql.org/"

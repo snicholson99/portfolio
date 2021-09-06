@@ -11,7 +11,7 @@ class Highlights extends Component {
     return (
       <div id="highlights" className="info">
         <video id="background-video" autoPlay muted loop className="background-video">
-          <source src="blurred_coding.mp4" type="video/mp4" />
+          <source src="assets/blurred_coding.mp4" type="video/mp4" />
         </video>
         <div className="visible">
           <div className="info-highlights">

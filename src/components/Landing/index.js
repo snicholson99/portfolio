@@ -13,7 +13,7 @@ const Landing = () => {
       <ReactVivus
         id="foo"
         option={{
-          file: "profile_outline_black.svg",
+          file: "assets/profile_outline_black.svg",
           animTimingFunction: 'SYNC',
           type: 'oneByOne',
           duration: 200,
