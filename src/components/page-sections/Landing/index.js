@@ -1,24 +1,26 @@
 import ReactVivus from 'react-vivus';
+import { stencils } from '../../../utils';
 
 import './style.css';
 
 const Landing = () => {
   
   const determineStencil = () => {
-    // let selectedStencil = Math.random() > 0.5 ? "assets/telecaster_stencil.svg" : "assets/scarpa_vapour_v_stencil.svg";
-    let selectedStencil = "assets/scarpa_vapour_v_stencil.svg";
+    let selectedStencil = stencils[Date.now() % stencils.length];
+    
     const selectedStencilURLParam = JSON.parse(new URLSearchParams(document.location.search).get("stencil"));
-    if (selectedStencilURLParam === "guitar") selectedStencil = "assets/telecaster_stencil.svg";
-    // if (selectedStencilURLParam === "shoe") selectedStencil = "assets/scarpa_vapour_v_stencil.svg";
+    if (selectedStencilURLParam === "guitar") selectedStencil = "assets/telecaster.svg";
+    if (selectedStencilURLParam === "shoe") selectedStencil = "assets/scarpa_vapour_v.svg";
+    if (selectedStencilURLParam === "sailing1") selectedStencil = "assets/bassenthwaite_sailing.svg";
+    if (selectedStencilURLParam === "sailing2") selectedStencil = "assets/chasewater_sailing.svg";
+    if (selectedStencilURLParam === "sunset") selectedStencil = "assets/chasewater_sunset.svg";
+    if (selectedStencilURLParam === "lake") selectedStencil = "assets/bassenthwaite_lake.svg";
+    if (selectedStencilURLParam === "dog") selectedStencil = "assets/george.svg";
     return selectedStencil;
   }
 
   return (
     <div id="landing" className="page-section">
-        <div id="landing-text-container">
-          <h1>Scott A. Nicholson</h1>
-          <h2>Front-End Developer</h2>
-        </div>
         <ReactVivus
           id="landing-stencil"
           option={{

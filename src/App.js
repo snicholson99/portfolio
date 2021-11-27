@@ -1,6 +1,7 @@
-import Navbar from './components/Navbar';
-import Highlights from './components/page-sections/Highlights';
 import Landing from './components/page-sections/Landing';
+import Navbar from './components/Navbar';
+import ComingSoon from './components/page-sections/ComingSoon';
+// import Highlights from './components/page-sections/Highlights';
 import './App.css';
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
     <div className="App">
       <Landing />
       <Navbar />
-      <Highlights />
+      <ComingSoon />
+      {/* <Highlights /> */}
     </div>
   );
 }
