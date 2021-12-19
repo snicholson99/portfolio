@@ -29,3 +29,41 @@
     height: 70%;
   }
 }
+
+#landing-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  bottom: 80px;
+}
+
+#landing button {
+  display: flex;
+  align-items: center;
+  max-height: 30px;
+  margin: 2px;
+  border: 1px solid white;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  animation: fadeInDown 2s 5s forwards;
+  opacity: 0;
+}
+
+#landing button:hover {
+  background-color: #050505;
+  filter: brightness(1.8);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

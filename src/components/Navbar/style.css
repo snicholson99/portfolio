@@ -12,10 +12,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #050505;
   padding: 2rem;
   height: 5rem;
-  background-color: black;
+  background-color: #050505;
   z-index: 1000;
 }
 
@@ -48,25 +48,6 @@
   font-style: normal;
 }
 
-#landing-see-more-container {
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
-  animation: fadeInDown 1s 25s forwards;
-  opacity: 0;
-  background-color: black;
-  padding: 0.5rem 1rem;
-  border: 1px solid white;
-  display: flex;
-  align-items: center;
-
-}
-
-#landing-see-more-icon {
-  font-size: 1rem;
-  padding-right: 1rem;
-}
-
 @media screen and (max-width: 800px) {
   #navbar {
     justify-content: space-between;
@@ -92,16 +73,5 @@
 @media screen and (min-width: 800px) {
   #navbar-hamburger-icon {
     display: none;
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
   }
 }

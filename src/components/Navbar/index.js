@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import classnames from 'classnames';
+import MenuIcon from '@mui/icons-material/Menu';
+
 import './style.css';
 
 const Navbar = () => {
@@ -41,7 +43,7 @@ const Navbar = () => {
             </div>
           </NavLink>
         </div>
-        <i id="navbar-hamburger-icon" className="fas fa-bars hamburger sn-icon" onClick={() => setHamburgerOpen(!hamburgerOpen)}></i>
+        <MenuIcon id="navbar-hamburger-icon" className="fas fa-bars hamburger sn-icon" onClick={() => setHamburgerOpen(!hamburgerOpen)} />
         <ul id="navbar-links">
           <li onClick={() => onNavLinkClick()}>
             <NavLink className="navbar-link" scroll={(el) => scrollWithOffset(el, 0)} to="/#coming-soon">Highlights</NavLink>
@@ -54,12 +56,6 @@ const Navbar = () => {
           </li>
         </ul>
       </header>
-      <NavLink onClick={() => onNavLinkClick()} scroll={(el) => scrollWithOffset(el, 0)} to="/#coming-soon">
-        <div id="landing-see-more-container">
-          <i id="landing-see-more-icon" className="fas fa-arrow-down"></i>
-          <p>Scroll for more</p>
-        </div>
-      </NavLink>
     </div>
   );
 }
