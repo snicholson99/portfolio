@@ -46,7 +46,7 @@ const Navbar = () => {
         <MenuIcon id="navbar-hamburger-icon" className="fas fa-bars hamburger sn-icon" onClick={() => setHamburgerOpen(!hamburgerOpen)} />
         <ul id="navbar-links">
           <li onClick={() => onNavLinkClick()}>
-            <NavLink className="navbar-link" scroll={(el) => scrollWithOffset(el, 0)} to="/#coming-soon">Highlights</NavLink>
+            <NavLink className="navbar-link" scroll={(el) => scrollWithOffset(el, 0)} to="/#highlights">Highlights</NavLink>
           </li>
           <li onClick={() => onNavLinkClick()}>
             <NavLink className="navbar-link" scroll={(el) => scrollWithOffset(el, 0)} to="/#coming-soon">My Tech Journey</NavLink>

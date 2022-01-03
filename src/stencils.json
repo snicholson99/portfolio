@@ -1,32 +1,32 @@
 [
   {
     "displayName": "Climbing Shoe",
-    "fullPath": "assets/scarpa_vapour_v.svg",
+    "fullPath": "assets/stencils/scarpa_vapour_v.svg",
     "fileName": "scarpa_vapour_v"
   },
   {
     "displayName": "Telecaster",
-    "fullPath": "assets/telecaster.svg",
+    "fullPath": "assets/stencils/telecaster.svg",
     "fileName": "telecaster"
   },
   {
     "displayName": "Sailing",
-    "fullPath": "assets/bassenthwaite_sailing.svg",
+    "fullPath": "assets/stencils/bassenthwaite_sailing.svg",
     "fileName": "bassenthwaite_sailing"
   },
   {
-    "displayName": "Sunset (Chasewater)",
-    "fullPath": "assets/chasewater_sunset.svg",
+    "displayName": "Chasewater Sunset",
+    "fullPath": "assets/stencils/chasewater_sunset.svg",
     "fileName": "chasewater_sunset"
   },
   {
-    "displayName": "Lake (Bassenthwaite)",
-    "fullPath": "assets/bassenthwaite_lake.svg",
+    "displayName": "Bassenthwaite Lake",
+    "fullPath": "assets/stencils/bassenthwaite_lake.svg",
     "fileName": "bassenthwaite_lake"
   },
   {
     "displayName": "George",
-    "fullPath": "assets/george.svg",
+    "fullPath": "assets/stencils/george.svg",
     "fileName": "george"
   }
 ]
