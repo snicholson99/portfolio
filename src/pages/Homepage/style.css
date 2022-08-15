@@ -1,0 +1,57 @@
+#homepage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+}
+
+#homepage h1,
+#homepage h2 {
+  z-index: 1;
+  margin: 12px;
+}
+
+#homepage-links {
+  display: flex;
+}
+
+.homepage-link {
+  margin: 20px;
+  cursor: pointer;
+}
+
+#homepage-bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  animation: swipeIn 2s ease forwards, hueRotate 16s ease forwards infinite;
+  background-position: 50%;
+}
+
+@keyframes hueRotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+@keyframes swipeIn {
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+  60% {
+    opacity: 1;
+    width: 100%;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}

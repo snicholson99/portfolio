@@ -1,0 +1,58 @@
+[
+  {
+    "name": "CSS Outdoor Portfolio",
+    "description": "An alternative outdoorsy portfolio website, with graphics created using HTML & CSS.",
+    "url": "https://snicholson99.github.io/outdoor-portfolio/",
+    "thumbnailImage": "/assets/projects/css-outdoor-portfolio_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "CD Graphics Portfolio",
+    "description": "A portfolio for a friend to promote their graphic design.",
+    "url": "https://snicholson99.github.io/cd-graphics/",
+    "thumbnailImage": "/assets/projects/cd-graphics-portfolio_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "Workmate",
+    "description": "A React notes-style project to improve my daily workflow.",
+    "url": "https://inspiring-almeida-64543a.netlify.app/",
+    "thumbnailImage": "/assets/projects/workmate_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "Holelizabeth Portfolio",
+    "description": "An art portfolio for a friend.",
+    "url": "https://snicholson99.github.io/holelizabeth/",
+    "thumbnailImage": "/assets/projects/holelizabeth-portfolio_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "Danksboard",
+    "description": "A joke soundboard, containing sound clips from my climbing friend.",
+    "url": "https://gracious-yonath-480b08.netlify.app/",
+    "thumbnailImage": "/assets/projects/danksboard_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "Rock, Paper, Scissors!",
+    "description": "A game of rock paper scissors created using React best practices.",
+    "url": "https://snicholson99.github.io/rock-paper-scissors/",
+    "thumbnailImage": "/assets/projects/rock-paper-scissors_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "CSS Beach Scene",
+    "description": "A beach scene created using CSS, sharing assets created in my Outdoor Portfolio.",
+    "url": "https://snicholson99.github.io/beach/",
+    "thumbnailImage": "/assets/projects/beach_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "Fail Counter",
+    "description": "A counter which stores all of your fails in local storage.",
+    "url": "https://snicholson99.github.io/fail-counter/",
+    "thumbnailImage": "/assets/projects/fail-counter_thumbnail.png",
+    "thumbnailGif": ""
+  }
+]
