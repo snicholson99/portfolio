@@ -14,10 +14,10 @@
     "thumbnailGif": ""
   },
   {
-    "name": "Workmate",
-    "description": "A React notes-style project to improve my daily workflow.",
-    "url": "https://inspiring-almeida-64543a.netlify.app/",
-    "thumbnailImage": "/assets/projects/workmate_thumbnail.png",
+    "name": "Charlie Minton's Portfolio",
+    "description": "A photography portfolio for a friend.",
+    "url": "https://snicholson99.github.io/charlie-minton/",
+    "thumbnailImage": "/assets/projects/charlie-minton-portfolio_thumbnail.png",
     "thumbnailGif": ""
   },
   {
@@ -25,6 +25,13 @@
     "description": "An art portfolio for a friend.",
     "url": "https://snicholson99.github.io/holelizabeth/",
     "thumbnailImage": "/assets/projects/holelizabeth-portfolio_thumbnail.png",
+    "thumbnailGif": ""
+  },
+  {
+    "name": "Workmate",
+    "description": "A React notes-style project to improve my daily workflow.",
+    "url": "https://inspiring-almeida-64543a.netlify.app/",
+    "thumbnailImage": "/assets/projects/workmate_thumbnail.png",
     "thumbnailGif": ""
   },
   {
