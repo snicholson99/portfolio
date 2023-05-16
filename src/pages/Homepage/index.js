@@ -8,6 +8,8 @@ export const Homepage = () => {
         id="homepage-bg-image"
         style={{
           backgroundImage: `url(/assets/homepage/bass_light_2.jpg)`,
+          // backgroundImage: `url(/assets/homepage/IMG_4015.jpg)`,
+          // backgroundImage: `url(/assets/homepage/IMG_4017.jpg)`,
         }}
       ></div>
       <h1>Scott Nicholson</h1>

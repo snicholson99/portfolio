@@ -31,6 +31,7 @@
   background-size: cover;
   animation: swipeIn 2s ease forwards, hueRotate 16s ease forwards infinite;
   background-position: 50%;
+  opacity: 0.5;
 }
 
 @keyframes hueRotate {
@@ -47,11 +48,11 @@
     width: 0%;
   }
   60% {
-    opacity: 1;
+    opacity: 0.5;
     width: 100%;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
     width: 100%;
   }
 }

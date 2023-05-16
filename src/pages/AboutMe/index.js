@@ -48,6 +48,21 @@ export const AboutMe = () => {
         </p>
       </div>
       <div id="about-me-media">
+        {/* <img src="/assets/homepage/IMG_4017.JPG" /> */}
+        {/* <img src="/assets/homepage/IMG_4017-2.png" /> */}
+        {/* <img src="/assets/homepage/stencil.png" /> */}
+        {/* <canvas
+          id="pictureStencil"
+          style={{
+            width: "100%",
+            objectPosition: "center top",
+            height: "100%",
+            objectFit: "contain",
+            display: "inline-block",
+          }}
+          width="1632"
+          height="2449"
+        ></canvas> */}
         <Avatar />
       </div>
     </div>

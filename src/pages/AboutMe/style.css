@@ -8,6 +8,12 @@
   padding-top: 40px;
 }
 
+#about-me-media img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: fit;
+}
+
 #about-me-content {
   flex: 0 0 60%;
   padding: 20px;
