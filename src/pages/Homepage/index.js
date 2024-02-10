@@ -12,7 +12,7 @@ export const Homepage = () => {
           // backgroundImage: `url(/assets/homepage/IMG_4017.jpg)`,
         }}
       ></div>
-      <h1>Scott Nicholson</h1>
+      <h1>Scott A. Nicholson</h1>
       <h2>Web Developer</h2>
       <div id="homepage-links">
         <Link to="/about-me" className="homepage-link">
