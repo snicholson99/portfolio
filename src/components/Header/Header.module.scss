@@ -1,0 +1,54 @@
+@use "../../styles/variables.scss";
+
+.header {
+  background-color: variables.$dark-grey;
+  height: variables.$header-height;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 0 6%;
+  &-inner {
+    max-width: variables.$max-container-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  &-logo {
+    max-height: 40px;
+    cursor: pointer;
+  }
+  &-logo-name,
+  &-logo-title {
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  &-logo:hover {
+    fill: variables.$primary-color;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+    span {
+      text-decoration: none;
+      color: variables.$white;
+      font-weight: 500;
+      transition: color 0.3s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: variables.$primary-color;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: variables.$max-mobile-width) {
+  .header-logo-name-desktop,
+  .header-logo-title-desktop {
+    display: none;
+  }
+}

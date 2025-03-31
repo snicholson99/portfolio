@@ -1,0 +1,53 @@
+.header {
+  background-color: #131313;
+  height: 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 0 6%;
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header-logo {
+  max-height: 40px;
+  cursor: pointer;
+}
+.header-logo-name, .header-logo-title {
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header-logo:hover {
+  fill: #2ecc71;
+}
+.header .nav {
+  display: flex;
+  gap: 20px;
+}
+.header .nav span {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header .nav span:hover {
+  color: #2ecc71;
+}
+
+@media only screen and (max-width: 375px) {
+  .header-logo-name-desktop,
+  .header-logo-title-desktop {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Header.module.css.map */

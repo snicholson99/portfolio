@@ -1,0 +1,28 @@
+.contact {
+  position: relative;
+  top: 60px;
+  background-color: #131313;
+  width: 100%;
+  margin: 40px auto 0;
+  padding: 0;
+}
+.contact-inner {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px 6%;
+}
+.contact-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.contact-inner ul li a {
+  display: flex;
+  align-items: center;
+}
+.contact-inner ul li a svg {
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=Contact.module.css.map */

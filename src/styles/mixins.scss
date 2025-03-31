@@ -1,0 +1,67 @@
+@use "./variables.scss";
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@mixin container {
+  position: relative;
+  top: variables.$header-height;
+  padding: 60px 6%;
+  z-index: 0;
+  max-width: variables.$max-container-width;
+  margin: 0 auto;
+}
+
+@mixin full-page {
+  // remove additional to allow part of next page to show
+  min-height: calc(100vh - variables.$header-height - 50px);
+}
+
+@mixin typewriter-animation {
+  opacity: 0;
+  max-width: 310px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid transparent; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  // margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  animation: typing 3.2s 1.4s steps(40) forwards,
+    blink-caret 0.75s 0.2s step-end infinite;
+  font-family: "Source Code Pro", monospace;
+
+  @keyframes typing {
+    from {
+      width: 0;
+      opacity: 1;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: variables.$white;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.avatar-container {
+  position: absolute !important;
+  top: 60px;
+  width: 100% !important;
+  height: calc(100vh - 60px) !important;
+  z-index: 9;
+}
+
+/*# sourceMappingURL=AvatarWithScene.module.css.map */

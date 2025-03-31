@@ -1,0 +1,9 @@
+@use "../../styles/variables.scss";
+
+.avatar-container {
+  position: absolute !important;
+  top: variables.$header-height;
+  width: 100% !important;
+  height: calc(100vh - variables.$header-height) !important;
+  z-index: 9;
+}

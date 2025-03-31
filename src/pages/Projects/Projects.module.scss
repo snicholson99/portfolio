@@ -1,0 +1,36 @@
+@use "../../styles/mixins.scss";
+@use "../../styles/variables.scss";
+
+.projects {
+  @include mixins.container;
+  @include mixins.full-page;
+  text-align: center;
+  .project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    .project-card {
+      flex: 1 1 250px;
+      text-align: center;
+      padding: 20px;
+      background-color: variables.$dark-grey;
+      cursor: pointer;
+      &:hover {
+        img {
+          filter: brightness(1.05);
+        }
+      }
+      img {
+        width: 100%;
+      }
+      h4 {
+        margin: 20px 0;
+      }
+      p {
+        color: variables.$light-grey;
+        line-height: 24px;
+      }
+    }
+  }
+}

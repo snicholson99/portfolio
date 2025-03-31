@@ -1,0 +1,50 @@
+@use "../../styles/mixins.scss";
+@use "../../styles/variables.scss";
+
+.homepage {
+  height: calc(100vh - variables.$header-height);
+  position: relative;
+  top: 60px;
+  padding: 30px 6%;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  h1 {
+    text-align: center;
+    opacity: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    animation: slideInUp 0.5s 0.4s linear forwards;
+  }
+  h2 {
+    width: 0;
+    font-size: 15px;
+    border-color: transparent;
+    @include mixins.typewriter-animation;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .homepage {
+    h1 {
+      margin-top: 20px;
+    }
+    h2 {
+      display: none;
+    }
+  }
+}
