@@ -1,16 +1,16 @@
 import Header from "./components/Header";
-import About from "./pages/About";
-import Homepage from "./pages/Homepage";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import SkillsBanner from "./components/SkillsBanner";
+import Homepage from "./sections/Homepage";
+import Skills from "./sections/Skills";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Homepage />
-      <SkillsBanner />
+      <Skills />
       <About />
       <Projects />
       <Contact />

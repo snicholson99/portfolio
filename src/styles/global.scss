@@ -3,7 +3,17 @@
 
 body {
   color: variables.$white;
-  background-color: variables.$grey;
+  // background-color: variables.$grey;
+  background: linear-gradient(
+    45deg,
+    variables.$primary-color -50%,
+    variables.$grey 100%
+  );
+  // background: linear-gradient(
+  //   45deg,
+  //   rgba(34, 164, 116, 1) 0%,
+  //   rgba(41, 47, 143, 1) 100%
+  // );
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
