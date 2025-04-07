@@ -134,6 +134,7 @@ const SkillsBanner = () => {
               style={{
                 backgroundColor: "#f0f0f0",
                 color: "#0f0f0f",
+                width: "fit-content",
                 maxWidth: "80%",
                 textAlign: "center",
               }}
