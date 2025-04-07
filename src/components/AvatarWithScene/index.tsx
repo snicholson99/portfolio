@@ -11,7 +11,7 @@ export default function AvatarWithScene() {
     const updateFov = () => {
       const width = window.innerWidth;
       // Calculate FOV based on window width (adjust the multiplier as needed)
-      const newFov = Math.max(20, 100 - width / 5); // Example calculation
+      const newFov = Math.max(20, 100 - width / 5);
       setFov(newFov);
     };
 
@@ -34,9 +34,9 @@ export default function AvatarWithScene() {
       <directionalLight position={[2, 2, 2]} intensity={1} />
       <Avatar url="/assets/avatar.glb" />
       <OrbitControls
-        enableZoom={false} // Disable zooming to avoid accidental zoom
-        enablePan={false} // Optionally disable panning to keep a fixed view
-        enableRotate={false} // Optionally disable panning to keep a fixed view
+        enableZoom={false}
+        enablePan={false}
+        enableRotate={false}
       />
     </Canvas>
   );

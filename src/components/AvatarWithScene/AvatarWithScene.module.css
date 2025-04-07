@@ -1,9 +1,10 @@
 .avatar-container {
   position: absolute !important;
-  top: 60px;
+  top: 0;
   width: 100% !important;
-  height: calc(100vh - 60px) !important;
-  z-index: 9;
+  height: 100% !important;
+  touch-action: auto; /* Allow vertical scrolling on mobile */
+  z-index: -1;
 }
 
 /*# sourceMappingURL=AvatarWithScene.module.css.map */

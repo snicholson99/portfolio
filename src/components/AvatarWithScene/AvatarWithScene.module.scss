@@ -2,8 +2,9 @@
 
 .avatar-container {
   position: absolute !important;
-  top: variables.$header-height;
+  top: 0;
   width: 100% !important;
-  height: calc(100vh - variables.$header-height) !important;
-  z-index: 9;
+  height: 100% !important;
+  touch-action: auto; /* Allow vertical scrolling on mobile */
+  z-index: -1;
 }
