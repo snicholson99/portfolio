@@ -5,6 +5,6 @@
   top: 0;
   width: 100% !important;
   height: 100% !important;
-  touch-action: auto; /* Allow vertical scrolling on mobile */
+  touch-action: auto !important; /* Allow vertical scrolling on mobile */
   z-index: -1;
 }
