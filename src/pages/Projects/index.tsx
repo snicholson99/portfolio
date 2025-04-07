@@ -62,7 +62,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             <img src={project.thumbnailSrc} alt={project.name} />
-            <h4>{project.name}</h4>
+            <h3>{project.name}</h3>
             <p>{project.description}</p>
           </a>
         ))}
