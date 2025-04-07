@@ -15,7 +15,7 @@ const About = () => {
         <li>
           <FontAwesomeIcon icon={faUserGraduate} />
           <p>
-            Graduated the inaugural{" "}
+            Graduated the first ever{" "}
             <a
               href="https://schoolofcode.co.uk"
               target="_blank"
@@ -35,11 +35,17 @@ const About = () => {
         </li>
         <li>
           <FontAwesomeIcon icon={faPersonChalkboard} />
-          <p>Held numerous talks to upcoming developers about my experience</p>
+          <p>
+            Held numerous talks to upcoming developers about my experience and
+            good coding practices
+          </p>
         </li>
         <li>
           <FontAwesomeIcon icon={faPeopleGroup} />
-          <p>Proud mentor to three talented School of Code graduates</p>
+          <p>
+            Proud mentor to 3 talented School of Code graduates, who've since
+            gone on to make their mark in the tech world
+          </p>
         </li>
         <li>
           <FontAwesomeIcon icon={faSailboat} />

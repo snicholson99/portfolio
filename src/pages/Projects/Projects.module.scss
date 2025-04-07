@@ -15,8 +15,11 @@
       text-align: center;
       padding: 20px;
       background-color: variables.$dark-grey;
+      border: 1px solid transparent;
       cursor: pointer;
       &:hover {
+        border-color: variables.$primary-color;
+        color: unset;
         img {
           filter: brightness(1.05);
         }

@@ -31,6 +31,14 @@
   align-self: center;
   width: 40px;
 }
+.about ul > li a {
+  border-bottom: 1px solid;
+  border-color: #f0f0f0;
+}
+.about ul > li a:hover {
+  transition: all 0.3s ease-in;
+  border-color: #2ecc71;
+}
 .about > img {
   flex: 0 1 30%;
   max-width: 300px;
@@ -38,7 +46,7 @@
   min-height: 300px;
   height: 100%;
   padding: 4px;
-  border: 2px solid #0f0f0f;
+  border: 2px solid #c3c3c3;
 }
 
 @media only screen and (max-width: 800px) {

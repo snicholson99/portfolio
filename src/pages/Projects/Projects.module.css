@@ -19,7 +19,12 @@
   text-align: center;
   padding: 20px;
   background-color: #131313;
+  border: 1px solid transparent;
   cursor: pointer;
+}
+.projects .project-cards .project-card:hover {
+  border-color: #2ecc71;
+  color: unset;
 }
 .projects .project-cards .project-card:hover img {
   filter: brightness(1.05);

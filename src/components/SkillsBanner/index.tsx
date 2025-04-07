@@ -6,108 +6,107 @@ const SKILLS_DATA = [
   {
     name: "HTML 5",
     img: "/assets/skills/html_logo.png",
-    type: "development",
-    tooltip: "The standard language for creating and structuring web pages.",
+    type: "Development",
+    tooltip: "The standard language for creating and structuring web pages",
   },
   {
     name: "CSS 3",
     img: "/assets/skills/css_logo.png",
-    type: "development",
-    tooltip: "A stylesheet language used to design and style web pages.",
+    type: "Development",
+    tooltip: "A stylesheet language used to design and style web pages",
   },
   {
     name: "JavaScript",
     img: "/assets/skills/js_logo.png",
-    type: "development",
-    tooltip:
-      "A versatile programming language for interactive web development.",
+    type: "Development",
+    tooltip: "A versatile programming language for interactive web development",
   },
   {
     name: "TypeScript",
     img: "/assets/skills/typescript_logo.svg",
-    type: "development",
+    type: "Development",
     tooltip:
-      "A superset of JavaScript that adds static typing for better scalability.",
+      "A superset of JavaScript that adds static typing for better scalability",
   },
   {
     name: "React.js",
     img: "/assets/skills/react_logo.svg",
-    type: "development",
+    type: "Development",
     tooltip:
-      "A JavaScript library for building fast and interactive user interfaces.",
+      "A JavaScript library for building fast and interactive user interfaces",
   },
   {
     name: "Sass",
     img: "/assets/skills/sass_logo.svg",
-    type: "development",
+    type: "Development",
     tooltip:
-      "A CSS preprocessor that extends CSS with variables, mixins, and more.",
+      "A CSS preprocessor that extends CSS with variables, mixins, and more",
   },
   {
     name: "Regex",
     img: "/assets/skills/regex_logo.png",
-    type: "development",
-    tooltip: "A sequence of characters for pattern matching in text.",
+    type: "Development",
+    tooltip: "A sequence of characters for pattern matching in text",
   },
   {
     name: "Three.js",
     img: "/assets/skills/threejs_logo.png",
-    type: "development",
+    type: "Development",
     tooltip:
       "A JavaScript library for creating 3D graphics in the browser using WebGL",
   },
   {
     name: "Git",
     img: "/assets/skills/git_logo.png",
-    type: "development",
-    tooltip: "A distributed version control system for tracking code changes.",
+    type: "Development",
+    tooltip: "A distributed version control system for tracking code changes",
   },
   {
     name: "Github",
     img: "/assets/skills/github_logo.svg",
-    type: "development",
-    tooltip: "A platform for hosting and collaborating on Git repositories.",
+    type: "Development",
+    tooltip: "A platform for hosting and collaborating on Git repositories",
   },
   {
     name: "Jasmine",
     img: "/assets/skills/jasmine_logo.png",
-    type: "testing",
+    type: "Testing",
     tooltip:
-      "A testing framework for writing and running JavaScript unit tests.",
+      "A testing framework for writing and running JavaScript unit tests",
   },
   {
     name: "Datadog",
     img: "/assets/skills/datadog_logo.png",
-    type: "testing",
-    tooltip: "A monitoring and security platform for cloud applications.",
+    type: "Testing",
+    tooltip: "A monitoring and security platform for cloud applications",
   },
   {
     name: "Figma",
     img: "/assets/skills/figma_logo.svg",
-    type: "software",
+    type: "Software",
     tooltip:
-      "A collaborative design tool for UI/UX prototyping and wireframing.",
+      "A collaborative design tool for UI/UX prototyping and wireframing",
   },
   {
     name: "Airtable",
     img: "/assets/skills/airtable_logo.png",
-    type: "software",
+    type: "Software",
     tooltip:
-      "A flexible database tool that combines spreadsheets with database features.",
+      "A flexible database tool that combines spreadsheets with database features",
   },
   {
     name: "Zapier",
     img: "/assets/skills/zapier_logo.png",
-    type: "software",
+    type: "Software",
     tooltip:
-      "An automation tool for connecting apps and workflows without coding.",
+      "An automation tool for connecting apps and workflows without coding",
   },
   {
     name: "Asana",
     img: "/assets/skills/asana_logo.svg",
-    type: "software",
+    type: "Software",
     tooltip:
-      "A project management tool for team collaboration and task tracking.",
+      "A project management tool for team collaboration and task tracking",
   },
 ];
 
@@ -131,8 +130,9 @@ const SkillsBanner = () => {
               anchorSelect={`#${id}`}
               content={skill.tooltip}
               delayShow={200}
+              opacity={1}
               style={{
-                backgroundColor: "#c3c3c3",
+                backgroundColor: "#f0f0f0",
                 color: "#0f0f0f",
                 width: "fit-content",
               }}

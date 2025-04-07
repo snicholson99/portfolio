@@ -24,7 +24,7 @@ code {
 a {
   text-decoration: none;
   color: variables.$white;
-  transition: color 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
 }
 
 a:hover {

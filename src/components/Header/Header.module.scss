@@ -21,12 +21,6 @@
     max-height: 40px;
     cursor: pointer;
   }
-  &-logo-name,
-  &-logo-title {
-    font-size: 14px;
-    transition: color 0.3s ease-in-out;
-    cursor: pointer;
-  }
   &-logo:hover {
     fill: variables.$primary-color;
   }
@@ -37,7 +31,7 @@
       text-decoration: none;
       color: variables.$white;
       font-weight: 500;
-      transition: color 0.3s ease-in-out;
+      transition: color 0.3s ease-in;
       cursor: pointer;
       &:hover {
         color: variables.$primary-color;
@@ -46,9 +40,5 @@
   }
 }
 
-@media only screen and (max-width: variables.$max-mobile-width) {
-  .header-logo-name-desktop,
-  .header-logo-title-desktop {
-    display: none;
-  }
-}
+// @media only screen and (max-width: variables.$max-mobile-width) {
+// }

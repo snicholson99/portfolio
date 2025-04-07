@@ -29,6 +29,14 @@
       align-self: center;
       width: 40px;
     }
+    a {
+      border-bottom: 1px solid;
+      border-color: variables.$white;
+      &:hover {
+        transition: all 0.3s ease-in;
+        border-color: variables.$primary-color;
+      }
+    }
   }
   > img {
     flex: 0 1 30%;
@@ -37,8 +45,8 @@
     min-height: 300px;
     height: 100%;
     padding: 4px;
-    // border: 2px solid variables.$light-grey;
-    border: 2px solid variables.$black;
+    border: 2px solid variables.$light-grey;
+    // border: 2px solid variables.$black;
   }
 }
 

@@ -20,11 +20,6 @@
   max-height: 40px;
   cursor: pointer;
 }
-.header-logo-name, .header-logo-title {
-  font-size: 14px;
-  transition: color 0.3s ease-in-out;
-  cursor: pointer;
-}
 .header-logo:hover {
   fill: #2ecc71;
 }
@@ -36,18 +31,11 @@
   text-decoration: none;
   color: #f0f0f0;
   font-weight: 500;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in;
   cursor: pointer;
 }
 .header .nav span:hover {
   color: #2ecc71;
-}
-
-@media only screen and (max-width: 375px) {
-  .header-logo-name-desktop,
-  .header-logo-title-desktop {
-    display: none;
-  }
 }
 
 /*# sourceMappingURL=Header.module.css.map */
