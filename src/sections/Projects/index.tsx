@@ -3,7 +3,7 @@ import styles from "./Projects.module.scss";
 const PROJECTS_DATA = [
   {
     name: "Workmate",
-    description: "A React notes-style project to improve my daily workflow.",
+    description: "A React notes-style project to improve my daily workflow",
     thumbnailSrc: "/assets/projects/workmate_thumbnail.png",
     hostedLink: "https://inspiring-almeida-64543a.netlify.app/",
     githubLink: "https://github.com/snicholson99/workmate",
@@ -11,22 +11,29 @@ const PROJECTS_DATA = [
   {
     name: "CSS Outdoor Portfolio",
     description:
-      "An alternative outdoorsy portfolio website, with graphics created using HTML & CSS.",
+      "An alternative outdoorsy portfolio website, with graphics created using HTML & CSS",
     thumbnailSrc: "/assets/projects/css-outdoor-portfolio_thumbnail.png",
     hostedLink: "https://snicholson99.github.io/outdoor-portfolio/",
     githubLink: "https://github.com/snicholson99/outdoor-portfolio",
   },
   {
     name: "CD Graphics Portfolio",
-    description: "A portfolio for a friend to promote their graphic design.",
+    description: "A portfolio for a friend to promote their graphic design",
     thumbnailSrc: "/assets/projects/cd-graphics-portfolio_thumbnail.png",
     hostedLink: "https://snicholson99.github.io/cd-graphics/",
     githubLink: "https://github.com/snicholson99/cd-graphics",
   },
   {
+    name: "Butterfly Portfolio",
+    description: "An example portfolio design for a blogger",
+    thumbnailSrc: "/assets/projects/butterfly-portfolio-thumbnail.png",
+    hostedLink: "https://snicholson99.github.io/butterfly-portfolio/",
+    githubLink: "https://github.com/snicholson99/butterfly-portfolio",
+  },
+  {
     name: "Danksboard",
     description:
-      "A joke soundboard, containing sound clips from my climbing friend.",
+      "A joke soundboard, containing sound clips from my climbing friend",
     thumbnailSrc: "/assets/projects/danksboard_thumbnail.png",
     hostedLink: "https://gracious-yonath-480b08.netlify.app/",
     githubLink: "https://github.com/snicholson99/danksboard",
@@ -34,18 +41,10 @@ const PROJECTS_DATA = [
   {
     name: "Rock, Paper, Scissors Game",
     description:
-      "A game of rock paper scissors created using React best practices.",
+      "A game of rock paper scissors created using React best practices",
     thumbnailSrc: "/assets/projects/rock-paper-scissors_thumbnail.png",
     hostedLink: "https://snicholson99.github.io/rock-paper-scissors/",
     githubLink: "https://github.com/snicholson99/rock-paper-scissors",
-  },
-  {
-    name: "It Worked On My Machine",
-    description:
-      "A joke counter which stores all of your fails in local storage.",
-    thumbnailSrc: "/assets/projects/fail-counter_thumbnail.png",
-    hostedLink: "https://snicholson99.github.io/fail-counter/",
-    githubLink: "https://github.com/snicholson99/fail-counter",
   },
 ];
 
