@@ -3,22 +3,21 @@
 
 .projects {
   @include mixins.container;
-  @include mixins.full-page;
   text-align: center;
   .project-cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+    gap: 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     .project-card {
-      flex: 1 1 250px;
+      flex: 0 0 270px;
       text-align: center;
-      padding: 20px;
+      padding: 30px 20px 20px;
       background-color: variables.$dark-grey;
       border: 1px solid transparent;
       cursor: pointer;
+      scroll-snap-align: start;
       &:hover {
-        // border-color: variables.$primary-color;
         border-color: variables.$white;
         color: unset;
         img {
